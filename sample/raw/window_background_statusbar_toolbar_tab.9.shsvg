@@ -14,9 +14,9 @@
     <rect x="1" y="$(calc "1 + $(dp "${STATUS_BAR_HEIGHT}") + $(dp "${APPBAR_HEIGHT}") + 1")" width="1" height="1" />
   </g>
 
-  <g>
-    <rect x="1" y="1" width="1" height="$(calc "$(dp "${STATUS_BAR_HEIGHT}")")" fill="${COLOR_PRIMARY_DARK}" />
-    <rect x="1" y="$(calc "1 + $(dp "${STATUS_BAR_HEIGHT}")")" width="1" height="$(calc "$(dp "${APPBAR_HEIGHT}")")" fill="${COLOR_PRIMARY}" />
-    <rect x="1" y="$(calc "1 + $(dp "${STATUS_BAR_HEIGHT}") + $(dp "${APPBAR_HEIGHT}")")" width="1" height="1" fill="${COLOR_WINDOW_BACKGROUND}" />
+  <g transform="translate(1,1)">
+    <rect x="0" y="0" width="1" height="$(calc "$(dp "${STATUS_BAR_HEIGHT}")")" fill="${COLOR_PRIMARY_DARK}" />
+    <rect x="0" y="$(calc "$(dp "${STATUS_BAR_HEIGHT}")")" width="1" height="$(calc "$(dp "${APPBAR_HEIGHT}")")" fill="${COLOR_PRIMARY}" />
+    <rect x="0" y="$(calc "$(dp "${STATUS_BAR_HEIGHT}") + $(dp "${APPBAR_HEIGHT}")")" width="1" height="1" fill="${COLOR_WINDOW_BACKGROUND}" />
   </g>
 </svg>
