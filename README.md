@@ -2,6 +2,11 @@
 
 Bash scripts to automate and extend the process of using SVG as Android image asset.
 
+## Dependencies
+
+- inkscape: For PNG genration
+- gcalccmd (shsvgdpi.sh): For (friendly) mathematical calculation.
+
 ## svgdpi.sh
 
 ```
