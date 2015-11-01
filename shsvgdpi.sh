@@ -35,7 +35,7 @@ export -f calc dp
 
 usage() {
     local name
-    name=$(basename "$0")
+    name="$(basename "$0")"
     cat <<EOF
 Usage: ${name} SHSVG_FILE [DIR_PREFIX [DIR_SUFFIX]]
 EOF
