@@ -2,6 +2,8 @@
 
 Bash scripts to automate and extend the process of using SVG as Android image asset.
 
+This project is also used by [DreaminginCodeZH/MaterialColdStart](https://github.com/DreaminginCodeZH/MaterialColdStart).
+
 ## Dependencies
 
 - inkscape: For PNG genration
